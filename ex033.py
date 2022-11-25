@@ -6,5 +6,5 @@ n3 = float(input('Terceiro número: '))
 lista = [n1, n2, n3]
 maior = max(lista)
 menor = min(lista)
-print('O número {:.0f} é o maior'.format(maior))
-print('O número {:.0f} é o menor'.format(menor))
+print('O maior valor foi o {:.0f}.'.format(maior))
+print('O menor valor foi o {:.0f}.'.format(menor))

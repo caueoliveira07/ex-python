@@ -3,7 +3,7 @@
 sal = float(input('Salário: R$'))
 if sal > 1250:
     aumento = sal + (sal * 10 / 100)
-    print('O seu salário com aumento de 10% é R${}'.format(aumento))
+    print('O seu salário com aumento de 10% é R${:.2f}'.format(aumento))
 else:
     aumento = sal + (sal * 15 / 100)
-    print('O seu salário com aumento de 15% é R${}'.format(aumento))
+    print('O seu salário com aumento de 15% é R${:.2f}'.format(aumento))
