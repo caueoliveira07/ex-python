@@ -1,5 +1,6 @@
 # Faça um programa que tenha uma função chamada escreva(), que recebe um texto qualquer como parâmetro e mostre uma mensagem com tamanho adaptável.
 
+
 def escreva(txt):
     for i in txt:
         print('~', end='')
@@ -16,6 +17,8 @@ escreva('CeV')
 escreva(str(input('Digite a mensagem: ')))
 
 '''# Resolução do professor
+
+
 def escreva(msg):
     tam = len(msg) + 4
     print('~' * tam)

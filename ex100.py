@@ -49,6 +49,7 @@ def somaPar(lista):
     print(f'Somando os valores pares de {lista}, temos {soma}')
 
 
+# Programa Principal
 números = list()
 sorteia(números)
 somaPar(números)'''
