@@ -1,0 +1,50 @@
+def aumentar(preço, aumento):
+    r = preço + (preço / 100 * aumento)
+    return r
+
+
+def diminuir(preço, diminuição):
+    r = preço - (preço / 100 * diminuição)
+    return r
+
+
+def dobro(preço):
+    r = preço * 2
+    return r
+
+
+def metade(preço):
+    r = preço / 2
+    return r
+
+
+def moeda(preço):
+    return f'R${preço:.2f}'.replace('.', ',')
+    
+
+'''# Resolução do professor
+
+
+def aumentar(preço=0, taxa=0):
+    res = preço + (preço * taxa/100)
+    return res
+
+
+def diminuir(preço=0, taxa=0):
+    res = preço - (preço * taxa/100)
+    return res
+
+    
+def dobro(preço=0):
+    res = preço * 2
+    return res
+    
+    
+def metade(preço=0):
+    res = preço / 2
+    return res
+
+
+def moeda(preço=0, moeda='R$'):
+    return f'{moeda}{preço:>.2f}'.replace('.', ',')'''
+    
